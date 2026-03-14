@@ -36,6 +36,8 @@ public class PrintVowelsAndNonVowels {
         default:
           if(letter == 'A' || letter == 'E' || letter == 'I' || letter == 'O' || letter == 'U') {
             break;
+          } else if (letter == ' '){
+            break;
           } else {
             consonant++;
             break;
